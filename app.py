@@ -1052,7 +1052,5 @@ def capture(aadhar):
 def success():
     return render_template("Page.html")
 
-if __name__ == '__main__':
-    app.run(port=5000, debug=True)
 
 
